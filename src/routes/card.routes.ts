@@ -1,4 +1,4 @@
-import { Router } from 'express';
+import express, { Router } from 'express';
 import { body } from 'express-validator';
 import { CardController } from '../controllers/card.controller';
 

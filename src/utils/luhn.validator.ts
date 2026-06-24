@@ -1,6 +1,10 @@
-/**
- * Validates card number using Luhn Algorithm
- */
+
+//  Validates card number using Luhn Algorithm
+
+
+
+
+
 export function isValidLuhn(cardNumber: string): boolean {
   const digits = cardNumber.replace(/\D/g, '');
 
